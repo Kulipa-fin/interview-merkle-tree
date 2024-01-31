@@ -7,6 +7,8 @@ The test provides you an opportunity to demonstrate the following:
 
 It is borrowed from Aztec, a kickass protocol and team.
 
+You are welcome to change any part of this codebase, but do keep the original tests intact.
+
 ## Rationale
 
 A core data structure in blockchain is the merkle tree. It's a simple binary tree structure where the root node is represented by the hash of its two child hashes. Given any set of data in the leaves, this leads to a unique root. Furthermore, proof of existence of a piece of data can be represented by a hash path, a list of pairwise child hashes at each layer, from leaf to root. Many rollups store their data in such data structures, and when proofs are generated they use hash paths to prove the data they are modifying exists.
