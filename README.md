@@ -1,13 +1,11 @@
 # Technical Challenge
 
-The test provides you an opportunity to demonstrate the following:
+The test (borrowed from Aztec, a kickass protocol and team) provides you an opportunity to demonstrate the following:
 
 - Your ability to write a data structure algorithm (in this case a merkle tree).
-- Your ability to write clean, idiomatic TypeScript.
+- Your ability to write clean, idiomatic, "production-level" TypeScript.
 
-It is borrowed from Aztec, a kickass protocol and team.
-
-You are welcome to change any part of this codebase, but do keep the original tests intact.
+You are welcome to change any part of this codebase. Don't modify the original unit tests (but it's fine to add others).
 
 ## Rationale
 

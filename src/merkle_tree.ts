@@ -28,7 +28,7 @@ export class MerkleTree {
       throw Error('Bad depth');
     }
 
-    // Implement.
+    // Missing implementation.
   }
 
   /**
@@ -66,13 +66,13 @@ export class MerkleTree {
   /**
    * Returns the hash path for `index`.
    * e.g. To return the HashPath for index 2, return the nodes marked `*` at each layer.
-   *     d0:                                            [ root ]
-   *     d1:                      [*]                                               [*]
-   *     d2:         [*]                      [*]                       [ ]                     [ ]
-   *     d3:   [ ]         [ ]          [*]         [*]           [ ]         [ ]          [ ]        [ ]
+   *     d3:                                            [ root ]
+   *     d2:                      [*]                                               [*]
+   *     d1:         [*]                      [*]                       [ ]                     [ ]
+   *     d0:   [ ]         [ ]          [*]         [*]           [ ]         [ ]          [ ]        [ ]
    */
   async getHashPath(index: number) {
-    // Implement.
+    // Missing implementation.
     return new HashPath();
   }
 
@@ -80,7 +80,7 @@ export class MerkleTree {
    * Updates the tree with `value` at `index`. Returns the new tree root.
    */
   async updateElement(index: number, value: Buffer) {
-    // Implement.
+    // Missing implementation.
     return this.root;
   }
 }
